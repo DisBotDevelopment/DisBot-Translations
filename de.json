@@ -1,0 +1,61 @@
+{
+  "commands": {
+    "disbot": {
+      "info": {
+        "shard": "Der Server ist auf Shard ",
+        "writen": "Geschreiben in {js} und nutzt eine MongoDB-{database}",
+        "automod": "Und ab {botversionautomod} nutze ich Discord-{automodemoji}."
+      }
+    }
+  },
+  "permissions": {
+    "admin": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Administrator`.",
+    "manageMessages": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Messages`.",
+    "manageRoles": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Roles`.",
+    "manageChannels": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Channels`.",
+    "kickMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Kick Members`.",
+    "banMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Ban Members`.",
+    "manageGuild": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Guild`.",
+    "addReactions": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Add Reactions`.",
+    "viewAuditLogs": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `View Audit Logs`.",
+    "voiceConnect": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Connect`.",
+    "voiceSpeak": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Speak`.",
+    "voiceMoveMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Move Members`.",
+    "voiceUseVAD": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Use VAD`.",
+    "voiceMuteMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Mute Members`.",
+    "sendMessages": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Send Messages`.",
+    "embedLinks": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Embed Links`."
+  },
+  "blacklist-server": "Der Server ist vom Bot System gebannt... ⏩ Mehr infos unter https://dc.disbot.xyz",
+  "blacklist-user": "Du bist vom Bot System gebannt... ⏩ Mehr infos unter https://dc.disbot.xyz",
+  "ticket-not-allow": "Du kannst für das Ticket Panel keine Tickets erstellen!",
+  "ticket": {
+    "button-close": "Ticket Schließen",
+    "button-look": "Ticket Sperren",
+    "ticket-open": "Das Ticket wurde erstellet:",
+    "ticket-use-setup": "Bitte Benutze \n {p} num das System zu voll enden."
+  },
+  "ai": {
+    "bard": {
+      "not-use": "Der Command wird nicht benutzt oder hat einen Bug bitte melde es dem Supporter Team."
+    }
+  },
+  "bot-add-1": "Hallo Ich bin {tag}.",
+  "bot-add-2": "Wenn du hilfe brauchst dann lese gerne die [Docs](https://docs.disbot.xyz) oder joine dem [Discord](https://dc.disbot.xyz).",
+  "bot-add-3": "Wenn du sehen willst was neu und verbessert wurde dann schaue die [Updates](https://update.disbot.xyz) an.",
+  "bot-add-4": "Features kannst du hier sehen: [Features](https://disbot.xyz/features)",
+  "bot-add-5": "**Nun viel Spaß mit {tag}**",
+
+
+  "join_to_create_setup_manage_channel": "Verwalte dein Voice Channel mit denn Options unten!",
+  "join-to-create-remove": "Das Join to Create System wurde entfernt!",
+
+
+  "context": {
+    "level": {
+
+      "level-no-data": "Keine Daten"
+    }
+  }
+
+}
