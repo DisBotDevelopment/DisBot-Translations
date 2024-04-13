@@ -1,61 +1,66 @@
 {
   "commands": {
-    "disbot": {
-      "info": {
-        "shard": "Der Server ist auf Shard ",
-        "writen": "Geschreiben in {js} und nutzt eine MongoDB-{database}",
-        "automod": "Und ab {botversionautomod} nutze ich Discord-{automodemoji}."
+    "ban": {
+
+      "permissios": {
+        "bot": ":x: Ich habe keine Berechtigung, um diesen Benutzer zu bannen.",
+        "user": ":x: Du hast keine Berechtigung, um diesen Benutzer zu bannen.",
+        "roles": ":x: Du kannst diesen Benutzer nicht bannen, da er eine höhere Rolle hat als du."
       }
     }
   },
+
+  "buttons": {},
+  "selecmenus": {},
+  "contextmenus": {},
+  "events": {},
+
   "permissions": {
-    "admin": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Administrator`.",
-    "manageMessages": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Messages`.",
-    "manageRoles": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Roles`.",
-    "manageChannels": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Channels`.",
-    "kickMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Kick Members`.",
-    "banMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Ban Members`.",
-    "manageGuild": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Manage Guild`.",
-    "addReactions": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Add Reactions`.",
-    "viewAuditLogs": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `View Audit Logs`.",
-    "voiceConnect": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Connect`.",
-    "voiceSpeak": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Speak`.",
-    "voiceMoveMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Move Members`.",
-    "voiceUseVAD": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Use VAD`.",
-    "voiceMuteMembers": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Voice Mute Members`.",
-    "sendMessages": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Send Messages`.",
-    "embedLinks": "Ich habe nicht die benötigten Berechtigungen. Bitte gebe mir die Berechtigung `Embed Links`."
-  },
-  "blacklist-server": "Der Server ist vom Bot System gebannt... ⏩ Mehr infos unter https://dc.disbot.xyz",
-  "blacklist-user": "Du bist vom Bot System gebannt... ⏩ Mehr infos unter https://dc.disbot.xyz",
-  "ticket-not-allow": "Du kannst für das Ticket Panel keine Tickets erstellen!",
-  "ticket": {
-    "button-close": "Ticket Schließen",
-    "button-look": "Ticket Sperren",
-    "ticket-open": "Das Ticket wurde erstellet:",
-    "ticket-use-setup": "Bitte Benutze \n {p} num das System zu voll enden."
-  },
-  "ai": {
-    "bard": {
-      "not-use": "Der Command wird nicht benutzt oder hat einen Bug bitte melde es dem Supporter Team."
-    }
-  },
-  "bot-add-1": "Hallo Ich bin {tag}.",
-  "bot-add-2": "Wenn du hilfe brauchst dann lese gerne die [Docs](https://docs.disbot.xyz) oder joine dem [Discord](https://dc.disbot.xyz).",
-  "bot-add-3": "Wenn du sehen willst was neu und verbessert wurde dann schaue die [Updates](https://update.disbot.xyz) an.",
-  "bot-add-4": "Features kannst du hier sehen: [Features](https://disbot.xyz/features)",
-  "bot-add-5": "**Nun viel Spaß mit {tag}**",
-
-
-  "join_to_create_setup_manage_channel": "Verwalte dein Voice Channel mit denn Options unten!",
-  "join-to-create-remove": "Das Join to Create System wurde entfernt!",
-
-
-  "context": {
-    "level": {
-
-      "level-no-data": "Keine Daten"
-    }
+    "AddReactions": "Reaktionen hinzufügen",
+    "Administrator": "Administrator",
+    "AttachFiles": "Dateien anhängen",
+    "BanMembers": "Nutzer bannen",
+    "ChangeNickname": "Nickname ändern",
+    "Connect": "Verbinden",
+    "CreateInstantInvite": "Einladung erstellen",
+    "CreatePrivateThreads": "Private Threads erstellen",
+    "CreatePublicThreads": "Öffentliche Threads erstellen",
+    "DeafenMembers": "Kopfhörer stummschalten",
+    "EmbedLinks": "Links einbetten",
+    "KickMembers": "Nutzer kicken",
+    "ManageChannels": "Kanäle verwalten",
+    "ManageEmojisAndStickers": "Emojis und Sticker verwalten",
+    "ManageEvents": "Events verwalten",
+    "ManageGuild": "Server verwalten",
+    "ManageGuildExpressions": "Ausdrücke verwalten",
+    "ManageMessages": "Nachrichten verwalten",
+    "ManageNicknames": "Nickname ändern",
+    "ManageRoles": "Rollen verwalten",
+    "ManageThreads": "Threads verwalten",
+    "ManageWebhooks": "Webhooks verwalten",
+    "MentionEveryone": "@everyone, @here und alle Rollen erwähnen",
+    "ModerateMembers": "Mitglieder timeouten",
+    "MoveMembers": "Nutzer verschieben",
+    "MuteMembers": "Mikrofon stummschalten",
+    "PrioritySpeaker": "Very Important Speaker",
+    "ReadMessageHistory": "Nachrichtenverlauf einsehen",
+    "RequestToSpeak": "Redeanfrage senden",
+    "SendMessages": "Nachrichten versenden",
+    "SendMessagesInThreads": "Nachrichten in Threads versenden",
+    "SendTTSMessages": "Text-zu-Sprache-Nachricht senden",
+    "SendVoiceMessages": "Sprachnachrichten versenden",
+    "Speak": "Sprechen",
+    "Stream": "Bildschirmübertragung nutzen",
+    "UseApplicationCommands": "Applikationsbefehle nutzen",
+    "UseEmbeddedActivities": "Eingebettete Aktivitäten nutzen",
+    "UseExternalEmojis": "Externe Emojis verwenden",
+    "UseExternalSounds": "Externe Sounds verwenden",
+    "UseExternalStickers": "Externe Sticker verwenden",
+    "UseSoundboard": "Soundboard nutzen",
+    "UseVAD": "Voice-activity-detection nutzen",
+    "ViewAuditLog": "Auditlog einsehen",
+    "ViewChannel": "Kanal einsehen",
+    "ViewCreatorMonetizationAnalytics": "Rollenabonnements einblicken",
+    "ViewGuildInsights": "Server-Einblicke anzeigen"
   }
-
 }

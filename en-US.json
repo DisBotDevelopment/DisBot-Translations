@@ -26,7 +26,6 @@
     "sendMessages": "I don't have the required permissions. Please give me 'Send Messages' permission.",
     "embedLinks": "I don't have the required permissions. Please give me 'Embed Links' permission."
   },
-
   "blacklist-server": "The Server is Banned! More info under ⏩ https://dc.disbot.xyz",
   "blacklist-user": "Your are Banned from the Bot System! More info under ⏩ https://dc.disbot.xyz",
   "ticket-not-allow": "You can't open a Ticket!",
@@ -44,16 +43,10 @@
   },
 
   "bot-add-1": "Hello I'm {tag}.",
-  "bot-add-2": "If you need help then you like to read the [Docs](https://docs.disbot.xyz) or JOINE the [Discord](https://dc.disbot.xyz).",
-  "bot-add-3": "If you want to see what was new and improved then look at the [Updates](https://update.disbot.xyz).",
-  "bot-add-4": "Features can be seen here: [features](https://disbot.xyz/features)",
+  "bot-add-2": "If you need help then you like to read the [Docs](https://docs.disbot.xyz) or JOIN the [Discord](https://dc.disbot.xyz)." ,
+  "bot-add-3": "You can see Als Updates on [The Updates Site](https://disbot.xyz/updates).",
+  "bot-add-4": "If you want to support the bot then vote [here](https://top.gg/bot/1063079377975377960).",
   "bot-add-5": "**Now a lot of fun with {tag}**",
   "join_to_create_setup_manage_channel": "Join to create, setup and manage your own channels!",
-  "join-to-create-remove": "Join to create, setup hast bin removed!",
-
-  "context": {
-    "level": {
-      "level-no-data": "No Data"
-    }
-  }
+  "join-to-create-remove": "Join to create, setup hast bin removed!"
 }
