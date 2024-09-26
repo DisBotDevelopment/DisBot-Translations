@@ -18,6 +18,7 @@
   "contextmenus": {},
   "events": {},
   "other": {
-    "roleperms": "## {emoji} You don't have permission to use this command! - You need the {role} Role!"
+    "roleperms": "## {emoji} You don't have permission to use this command! - You need the {role} Role!",
+    "cooldown": "## {emoji} Please wait <t:${timestamp}:R> before reusing the command."
   }
 }
