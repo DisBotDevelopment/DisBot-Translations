@@ -1,7 +1,7 @@
 {
   "commands": {
     "ban": {
-      "permissios": {
+      "permissions": {
         "user": "## :x: You don't have the `Ban Members` permission.",
         "roles": "## :x: You can't ban this user because he has a higher role than you.",
         "yourself": "## :x: You can't ban yourself.",
@@ -19,6 +19,6 @@
   "events": {},
   "other": {
     "roleperms": "## {emoji} You don't have permission to use this command! - You need the {role} Role!",
-    "cooldown": "## {emoji} Please wait <t:${timestamp}:R> before reusing the command."
+    "cooldown": "## {emoji} Please wait {timestamp} before reusing the command."
   }
 }
