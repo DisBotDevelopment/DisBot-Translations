@@ -2,7 +2,7 @@
   "commands": {
     "ban": {
       "permissios": {
-        "bot": ":x: Ich habe keine Berechtigung, um diesen Benutzer zu bannen. {test}",
+        "bot": ":x: Ich habe keine Berechtigung, um diesen Benutzer zu bannen. {test} {ttt}",
         "user": ":x: Du hast keine Berechtigung, um diesen Benutzer zu bannen.",
         "roles": ":x: Du kannst diesen Benutzer nicht bannen, da er eine höhere Rolle hat als du."
       }
