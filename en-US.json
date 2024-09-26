@@ -9,12 +9,15 @@
         "me": "## :x: You can't ban me."
       },
       "reason": {
-        "length": ":x: The reason must be less than 512 characters."
+        "length": "## :x: The reason must be less than 512 characters."
       }
     }
   },
   "buttons": {},
   "selecmenus": {},
   "contextmenus": {},
-  "events": {}
+  "events": {},
+  "other": {
+    "roleperms": "## {emoji} You don't have permission to use this command! - You need the {role} Role!"
+  }
 }
