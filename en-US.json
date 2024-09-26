@@ -1,52 +1,20 @@
 {
   "commands": {
-    "disbot": {
-      "info": {
-        "shard": "This Server is runing on the Bot Shard",
-        "writen": "Im Wirten in {js} and i use a MongoDB-{database}",
-        "automod": "And from {botversionautomod} using Discord-{automodemoji}."
+    "ban": {
+      "permissios": {
+        "user": "## :x: You don't have the `Ban Members` permission.",
+        "roles": "## :x: You can't ban this user because he has a higher role than you.",
+        "yourself": "## :x: You can't ban yourself.",
+        "higher": "## :x: You can't ban this user because he has a higher role than me.",
+        "me": "## :x: You can't ban me."
+      },
+      "reason": {
+        "length": ":x: The reason must be less than 512 characters."
       }
     }
   },
-  "permissions": {
-    "admin": "I don't have the required permissions. Please give me 'Administrator' permission.",
-    "manageMessages": "I don't have the required permissions. Please give me 'Manage Messages' permission.",
-    "manageRoles": "I don't have the required permissions. Please give me 'Manage Roles' permission.",
-    "manageChannels": "I don't have the required permissions. Please give me 'Manage Channels' permission.",
-    "kickMembers": "I don't have the required permissions. Please give me 'Kick Members' permission.",
-    "banMembers": "I don't have the required permissions. Please give me 'Ban Members' permission.",
-    "manageGuild": "I don't have the required permissions. Please give me 'Manage Guild' permission.",
-    "addReactions": "I don't have the required permissions. Please give me 'Add Reactions' permission.",
-    "viewAuditLogs": "I don't have the required permissions. Please give me 'View Audit Logs' permission.",
-    "voiceConnect": "I don't have the required permissions. Please give me 'Voice Connect' permission.",
-    "voiceSpeak": "I don't have the required permissions. Please give me 'Voice Speak' permission.",
-    "voiceMoveMembers": "I don't have the required permissions. Please give me 'Voice Move Members' permission.",
-    "voiceUseVAD": "I don't have the required permissions. Please give me 'Voice Use VAD' permission.",
-    "voiceMuteMembers": "I don't have the required permissions. Please give me 'Voice Mute Members' permission.",
-    "sendMessages": "I don't have the required permissions. Please give me 'Send Messages' permission.",
-    "embedLinks": "I don't have the required permissions. Please give me 'Embed Links' permission."
-  },
-  "blacklist-server": "The Server is Banned! More info under ⏩ https://dc.disbot.xyz",
-  "blacklist-user": "Your are Banned from the Bot System! More info under ⏩ https://dc.disbot.xyz",
-  "ticket-not-allow": "You can't open a Ticket!",
-
-  "ticket": {
-    "button-close": "Close Ticket",
-    "button-look": "Look Ticket",
-    "ticket-open": "The Ticket has been Created:",
-    "ticket-use-setup": "Please use \n {p} the Setup Command!"
-  },
-  "ai": {
-    "bard": {
-      "not-use": "This command is currently disabled due to the API being down. Sorry for the inconvenience!"
-    }
-  },
-
-  "bot-add-1": "Hello I'm {tag}.",
-  "bot-add-2": "If you need help then you like to read the [Docs](https://docs.disbot.xyz) or JOIN the [Discord](https://dc.disbot.xyz)." ,
-  "bot-add-3": "You can see Als Updates on [The Updates Site](https://disbot.xyz/updates).",
-  "bot-add-4": "If you want to support the bot then vote [here](https://top.gg/bot/1063079377975377960).",
-  "bot-add-5": "**Now a lot of fun with {tag}**",
-  "join_to_create_setup_manage_channel": "Join to create, setup and manage your own channels!",
-  "join-to-create-remove": "Join to create, setup hast bin removed!"
+  "buttons": {},
+  "selecmenus": {},
+  "contextmenus": {},
+  "events": {}
 }
