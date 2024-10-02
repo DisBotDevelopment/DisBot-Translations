@@ -1,0 +1,28 @@
+{
+  "commands": {
+    "ban": {
+      "permissions": {
+        "user": "## :x: Du hast nicht die `Ban Members` Berechtigung.",
+        "roles": "## :x: Du kannst diesen Nutzer nicht bannen da er eine höhere Rolle hat.",
+        "yourself": "## :x: Du kannst Dich nicht selber Bannen.",
+        "higher": "## :x: Du kannst diesen Nutzer nicht bannen da er eine höhere Rolle hat.",
+        "me": "## :x: Du kannst mich nicht bannen."
+      },
+      "reason": {
+        "length": "## :x: Die Begründung muss kleiner als 512 Zeichen sein."
+      }
+    }
+  },
+  "buttons": {},
+  "selecmenus": {},
+  "contextmenus": {},
+  "events": {},
+  "other": {
+    "blacklist": {
+      "user": "## Du bist gesperrt! Und kannst diesen Bot nicht mehr nutzen. Begründung: {reason}",
+      "server": "## Dieser Server wurde vom System gesperrt! Begründung: {reason}"
+    },
+    "roleperms": "## {emoji} Du hast keine Berechtigung, um diesen Befehl zu nutzten. Du brauchst die {role}!",
+    "cooldown": "## {emoji} Bitte warte {timestamp} bevor du den Befehl wieder nutzen kannst."
+  }
+}
