@@ -1,6 +1,28 @@
 {
+  "commands": {
+    "ban": {
+      "permissions": {
+        "user": "## :x: You don't have the `Ban Members` permission.",
+        "roles": "## :x: You can't ban this user because he has a higher role than you.",
+        "yourself": "## :x: You can't ban yourself.",
+        "higher": "## :x: You can't ban this user because he has a higher role than me.",
+        "me": "## :x: You can't ban me."
+      },
+      "reason": {
+        "length": "## :x: The reason must be less than 512 characters."
+      }
+    }
+  },
   "buttons": {},
   "selecmenus": {},
   "contextmenus": {},
-  "events": {}
+  "events": {},
+  "other": {
+    "blacklist": {
+      "user": "## You are blacklisted from using the bot! For the Reason: {reason}",
+      "server": "## This server is blacklisted from using the bot! For the Reason: {reason}"
+    },
+    "roleperms": "## {emoji} You don't have permission to use this command! - You need the {role} Role!",
+    "cooldown": "## {emoji} Please wait {timestamp} before reusing the command."
+  }
 }
