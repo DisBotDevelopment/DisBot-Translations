@@ -2,14 +2,14 @@
   "commands": {
     "ban": {
       "permissions": {
-        "user": "## :x: Du hast nicht die `Ban Members` Berechtigung.",
-        "roles": "## :x: Du kannst diesen Nutzer nicht bannen da er eine höhere Rolle hat.",
-        "yourself": "## :x: Du kannst Dich nicht selber Bannen.",
-        "higher": "## :x: Du kannst diesen Nutzer nicht bannen da er eine höhere Rolle hat.",
-        "me": "## :x: Du kannst mich nicht bannen."
+        "user": "## :x: You don't have the `Ban Members` permission.",
+        "roles": "## :x: You can't ban this user because he has a higher role than you.",
+        "yourself": "## :x: You can't ban yourself.",
+        "higher": "## :x: You can't ban this user because he has a higher role than me.",
+        "me": "## :x: You can't ban me."
       },
       "reason": {
-        "length": "## :x: Die Begründung muss kleiner als 512 Zeichen sein."
+        "length": "## :x: The reason must be less than 512 characters."
       }
     }
   },
@@ -19,10 +19,10 @@
   "events": {},
   "other": {
     "blacklist": {
-      "user": "## Du bist gesperrt! Und kannst diesen Bot nicht mehr nutzen. Begründung: {reason}",
-      "server": "## Dieser Server wurde vom System gesperrt! Begründung: {reason}"
+      "user": "## You are blacklisted from using the bot! For the Reason: {reason}",
+      "server": "## This server is blacklisted from using the bot! For the Reason: {reason}"
     },
-    "roleperms": "## {emoji} Du hast keine Berechtigung, um diesen Befehl zu nutzten. Du brauchst die {role}!",
-    "cooldown": "## {emoji} Bitte warte {timestamp} bevor du den Befehl wieder nutzen kannst."
+    "roleperms": "## {emoji} You don't have permission to use this command! - You need the {role} Role!",
+    "cooldown": "## {emoji} Please wait {timestamp} before reusing the command."
   }
 }
