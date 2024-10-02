@@ -4,9 +4,9 @@
       "permissions": {
         "user": "## :x: Du hast nicht die `Ban Members` Berechtigung.",
         "roles": "## :x: Du kannst diesen Nutzer nicht bannen da er eine höhere Rolle hat.",
-        "yourself": "## :x: You can't ban yourself.",
+        "yourself": "## :x: Du kannst Dich nicht selber Bannen.",
         "higher": "## :x: Du kannst diesen Nutzer nicht bannen da er eine höhere Rolle hat.",
-        "me": "## :x: You can't ban me."
+        "me": "## :x: Du kannst mich nicht bannen."
       },
       "reason": {
         "length": "## :x: Die Begründung muss kleiner als 512 Zeichen sein."
@@ -19,7 +19,7 @@
   "events": {},
   "other": {
     "blacklist": {
-      "user": "## You are blacklisted from using the bot! For the Reason: {reason}",
+      "user": "## Du bist gesperrt! Und kannst diesen Bot nicht mehr nutzen. Begründung: {reason}",
       "server": "## Dieser Server wurde vom System gesperrt! Begründung: {reason}"
     },
     "roleperms": "## {emoji} Du hast keine Berechtigung, um diesen Befehl zu nutzten. Du brauchst die {role}!",
