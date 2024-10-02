@@ -1,3 +1,3 @@
 files:
   - source: en-US.json
-    translation: translations/%locale%/%locale%.json
+    translation: translations/%two_letters_code%.json
